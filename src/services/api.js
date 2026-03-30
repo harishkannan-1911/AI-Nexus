@@ -1,5 +1,5 @@
 export const streamMessage = async (message, onData, signal) => {
-  const response = await fetch("http://127.0.0.1:8000/chat-stream", {
+  const response = await fetch("https://tinpot-unexculpable-elda.ngrok-free.dev", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
